@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
+    @IBOutlet weak var topButton: UIButton!
     @IBOutlet weak var pressMeButton: UIButton!
     
     override func viewDidLoad() {
@@ -21,10 +22,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         print("Text Button Tapped")
         let vc = ChildViewController()
         vc.modalPresentationStyle = .overCurrentContext
-//        navigationController?.pushViewController(vc, animated: true)
-        self.present(vc, animated: false)
-//        openTextAlert()
+        self.present(vc, animated: true)
     }
     
+    @IBAction func topButtonPressed(_ sender: Any) {
+        print("top pressed")
+    }
 }
 

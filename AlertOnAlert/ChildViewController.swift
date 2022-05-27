@@ -74,7 +74,6 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         return button
     }()
     
-    
     let categoryTextField: UITextField = {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
@@ -93,6 +92,7 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         picker.translatesAutoresizingMaskIntoConstraints = false
         return picker
     }()
+    
     func activateConstraint() {
         NSLayoutConstraint.activate([
             contentView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -129,7 +129,6 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     private func createTheView() {
         view.addSubview(contentView)
-//        view.addSubview(dimmedView)
         contentView.addSubview(picker)
         contentView.addSubview(okButton)
         contentView.addSubview(cancelButton)

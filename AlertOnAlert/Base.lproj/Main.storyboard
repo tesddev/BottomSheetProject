@@ -24,17 +24,28 @@
                                     <action selector="pressMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gEC-Wh-g8w"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xK3-2Q-dwx">
+                                <rect key="frame" x="173.5" y="98" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="topButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DOS-Er-JKt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Btk-JD-7oO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3RM-tM-nVS"/>
                             <constraint firstItem="Btk-JD-7oO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bu3-GP-GNC"/>
+                            <constraint firstItem="xK3-2Q-dwx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NaB-cr-jh7"/>
+                            <constraint firstItem="xK3-2Q-dwx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="num-I8-b2v"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8SJ-Xu-2bF"/>
                     <connections>
                         <outlet property="pressMeButton" destination="Btk-JD-7oO" id="AxP-jv-YJZ"/>
+                        <outlet property="topButton" destination="xK3-2Q-dwx" id="FLk-e9-idV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
