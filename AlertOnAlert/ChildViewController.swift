@@ -13,7 +13,6 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        view.backgroundColor = .systemBackground
         navigationController?.navigationBar.isHidden = true
         createTheView()
         activateConstraint()
@@ -33,7 +32,7 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     let contentView: UIView = {
         let container = UIView()
         container.translatesAutoresizingMaskIntoConstraints = false
-        container.backgroundColor = .green
+        container.backgroundColor = .systemGray2
         container.clipsToBounds = true
         container.layer.cornerRadius = 15
         container.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
