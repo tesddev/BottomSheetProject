@@ -20,15 +20,7 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         picker.dataSource = self as UIPickerViewDataSource
         categoryTextField.inputView = picker
     }
-    
-    let maxDimmedAlpha: CGFloat = 0.6
-    lazy var dimmedView: UIView = {
-        let view = UIView()
-        view.backgroundColor = .black
-        view.alpha = maxDimmedAlpha
-        return view
-    }()
-    
+        
     let contentView: UIView = {
         let container = UIView()
         container.translatesAutoresizingMaskIntoConstraints = false
