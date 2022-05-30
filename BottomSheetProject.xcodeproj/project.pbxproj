@@ -42,7 +42,7 @@
 		8221CDE92840D1DB00A45CC9 = {
 			isa = PBXGroup;
 			children = (
-				8221CDF42840D1DB00A45CC9 /* AlertOnAlert */,
+				8221CDF42840D1DB00A45CC9 /* BottomSheet */,
 				8221CDF32840D1DB00A45CC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8221CDF42840D1DB00A45CC9 /* AlertOnAlert */ = {
+		8221CDF42840D1DB00A45CC9 /* BottomSheet */ = {
 			isa = PBXGroup;
 			children = (
 				8221CDF52840D1DB00A45CC9 /* AppDelegate.swift */,
@@ -67,7 +67,7 @@
 				8221CE032840D1DD00A45CC9 /* Info.plist */,
 				8221CE09284111D800A45CC9 /* ChildViewController.swift */,
 			);
-			path = AlertOnAlert;
+			path = BottomSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
