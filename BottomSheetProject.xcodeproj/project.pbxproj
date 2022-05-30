@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8221CDF22840D1DB00A45CC9 /* AlertOnAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertOnAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8221CDF22840D1DB00A45CC9 /* BottomSheetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomSheetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8221CDF52840D1DB00A45CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8221CDF72840D1DB00A45CC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8221CDF92840D1DB00A45CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		8221CDF32840D1DB00A45CC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8221CDF22840D1DB00A45CC9 /* AlertOnAlert.app */,
+				8221CDF22840D1DB00A45CC9 /* BottomSheetProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8221CDF12840D1DB00A45CC9 /* AlertOnAlert */ = {
+		8221CDF12840D1DB00A45CC9 /* BottomSheetProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8221CE062840D1DD00A45CC9 /* Build configuration list for PBXNativeTarget "AlertOnAlert" */;
+			buildConfigurationList = 8221CE062840D1DD00A45CC9 /* Build configuration list for PBXNativeTarget "BottomSheetProject" */;
 			buildPhases = (
 				8221CDEE2840D1DB00A45CC9 /* Sources */,
 				8221CDEF2840D1DB00A45CC9 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = AlertOnAlert;
+			name = BottomSheetProject;
 			productName = AlertOnAlert;
-			productReference = 8221CDF22840D1DB00A45CC9 /* AlertOnAlert.app */;
+			productReference = 8221CDF22840D1DB00A45CC9 /* BottomSheetProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8221CDED2840D1DB00A45CC9 /* Build configuration list for PBXProject "AlertOnAlert" */;
+			buildConfigurationList = 8221CDED2840D1DB00A45CC9 /* Build configuration list for PBXProject "BottomSheetProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8221CDF12840D1DB00A45CC9 /* AlertOnAlert */,
+				8221CDF12840D1DB00A45CC9 /* BottomSheetProject */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8221CDED2840D1DB00A45CC9 /* Build configuration list for PBXProject "AlertOnAlert" */ = {
+		8221CDED2840D1DB00A45CC9 /* Build configuration list for PBXProject "BottomSheetProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8221CE042840D1DD00A45CC9 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8221CE062840D1DD00A45CC9 /* Build configuration list for PBXNativeTarget "AlertOnAlert" */ = {
+		8221CE062840D1DD00A45CC9 /* Build configuration list for PBXNativeTarget "BottomSheetProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8221CE072840D1DD00A45CC9 /* Debug */,
