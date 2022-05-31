@@ -7,7 +7,13 @@
 
 import UIKit
 
+protocol ChildViewControllerDelegate: AnyObject {
+    func moveToNextViewController()
+}
+
 class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    weak var delegate: ChildViewControllerDelegate?
     
     let dataArray = ["English", "Maths", "History", "German", "Science"]
     
@@ -74,6 +80,7 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         textField.setPaddingPoints(20)
         textField.placeholder = "Pick category"
         textField.autocorrectionType = .no
+        textField.isUserInteractionEnabled = false
         textField.addTarget(ChildViewController.self, action: #selector(textFieldDidChange), for: .editingChanged)
         return textField
     }()
@@ -129,6 +136,11 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     @objc func didTapOkButton(_ sender: Any) {
         print("ok tapped")
+        delegate?.moveToNextViewController()
+        let vc = ViewController()
+        vc.value = categoryTextField.text!
+        print("vc.value = \(vc.value)")
+        self.dismiss(animated: true)
     }
     
     @objc func didTapCancelButton() {
