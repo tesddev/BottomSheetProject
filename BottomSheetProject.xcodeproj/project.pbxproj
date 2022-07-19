@@ -15,6 +15,7 @@
 		8221CE022840D1DD00A45CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8221CE002840D1DD00A45CC9 /* LaunchScreen.storyboard */; };
 		8221CE0A284111D800A45CC9 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8221CE09284111D800A45CC9 /* ChildViewController.swift */; };
 		823C697E284617CD00042CBE /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C697D284617CD00042CBE /* NextViewController.swift */; };
+		827008AE2886B5C2001D499A /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827008AD2886B5C2001D499A /* OTPTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8221CE032840D1DD00A45CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8221CE09284111D800A45CC9 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 		823C697D284617CD00042CBE /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		827008AD2886B5C2001D499A /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				8221CE002840D1DD00A45CC9 /* LaunchScreen.storyboard */,
 				8221CE032840D1DD00A45CC9 /* Info.plist */,
 				8221CE09284111D800A45CC9 /* ChildViewController.swift */,
+				827008AD2886B5C2001D499A /* OTPTextField.swift */,
 			);
 			path = BottomSheet;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				8221CDF62840D1DB00A45CC9 /* AppDelegate.swift in Sources */,
 				8221CDF82840D1DB00A45CC9 /* SceneDelegate.swift in Sources */,
 				8221CE0A284111D800A45CC9 /* ChildViewController.swift in Sources */,
+				827008AE2886B5C2001D499A /* OTPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

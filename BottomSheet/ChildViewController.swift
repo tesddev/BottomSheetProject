@@ -25,6 +25,8 @@ class ChildViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         picker.delegate = self as UIPickerViewDelegate
         picker.dataSource = self as UIPickerViewDataSource
         categoryTextField.inputView = picker
+        view.backgroundColor = .white
+        view.alpha = 0.8
     }
         
     let contentView: UIView = {
